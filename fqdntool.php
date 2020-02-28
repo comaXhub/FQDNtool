@@ -1,23 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>FQDN Tool</title>
-		<meta name=viewport content="width=device-width, initial-scale=1">
-		<meta name="description" content="Find which TLDs are already taken for a given domain name."/>
-		<meta name="keywords" content="FQDN, TLD, Domain, Name, IP, Registries"/>
-		<meta name="author" content="comaX"/>
-		<meta name="reply-to" content="contact@comax.fr"/>
-		<meta name="robots" content="all"/>
-		<meta name="theme-color" content="#AA1111"/>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-		<link rel="manifest" href="/manifest.json" />
-		<link rel="icon" type="image/png" href="https://comax.fr/images/favicon.png"/>
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-
-		<link href="https://comax.fr/msimdb/DB_dark.css" rel="stylesheet" type="text/css" media="all" />
-		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
-	</head>
 	<body lang="en">
 		<div id="haut">
 			<h1 class="title">
@@ -42,7 +24,6 @@
 			<p>Checking for the registrar takes even longer, as some TLDs will timeout and the feature is still in developpment.</p>
 
 <?php
-set_include_path('/var/www');
 set_time_limit(0);
 
 // Get the search variable from URL
